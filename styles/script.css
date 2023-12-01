@@ -1,0 +1,95 @@
+#div {
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-style: solid;
+    border-radius: 40px;
+    text-align: center;
+    margin-top: 95px;
+    margin-left: 170px;
+    margin-right: 170px;
+    padding-bottom: 150px;
+    box-shadow: cornflowerblue;
+    border-color: black;
+    color: beige;
+    border: none;  
+}
+#image {
+    height: 250px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: white;
+    filter: drop-shadow(10px 10px 10px rgb(0, 55, 158));
+    margin-top: 30px;
+}
+body {
+    background-image: url("background.png");
+}
+#div2 {
+    border-style: solid;
+    border-radius: 20px;
+    font-size: 50px;
+    color: beige;
+    margin-top: 150px;
+    margin-right: 600px;
+}
+#divtwo {
+    display: flex
+}
+#insta {
+    margin-right:100px;
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-radius: 25px;
+}
+#discord {
+    margin-right:100px;
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-radius: 25px;
+    float: left;
+}
+#reddit {
+    margin-right: 100px;
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-radius: 25px;
+    float: right;
+    
+}
+#github {
+    margin-right: 100px;
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-radius: 25px;
+}
+#div2 {
+    border-style: solid;
+    border-radius: 5px;
+    margin-left: -170px;
+    margin-right: -170px;
+    padding-bottom: 250px;
+    margin-bottom: -150px;
+    text-align: left;
+    background-color: black;
+    border-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#para2 {
+    padding-top: -40px;
+}
+#para3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 33px;
+}
+@keyframes expand {
+    from {width: 50px; height: 50px;}
+    to {width: 70px; height: 70px;}
+}
+@keyframes expand1 {
+    from {width: 70px; height: 70px;}
+    to {width: 50px; height: 50px;}
+}
